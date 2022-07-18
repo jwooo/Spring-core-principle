@@ -31,7 +31,7 @@ public class ConfigurationSingletonTest {
 
     }
 
-    @Test
+@Test
     void configurationdeep() {
         ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
         AppConfig bean = ac.getBean(AppConfig.class);
